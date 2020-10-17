@@ -29,7 +29,7 @@
 }
 .Aastikbtn--white {
 	 background-color: #fff;
-	 
+
 }
 .Aastikbtn--white::after {
 	 background-color: #fff;
@@ -51,4 +51,38 @@
 	 animation: moveInBottom 0.5s ease-out 0.75s;
 	 animation-fill-mode: backwards;
 }
- 
+
+body {
+ background-image: url("https://media.giphy.com/media/peAFQfg7Ol6IE/giphy.gif");
+ background-color: #cccccc;
+ background-size: contain;
+}
+
+@-webkit-keyframes bounce {
+        0% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
+
+  30%{
+    transform: scale(1,0.8) translate(0px, 10px);
+  }
+
+  75%{
+    transform: scale(1,1.1) translate(0px, -25px);
+  }
+
+ 100% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
+}
+
+.bounce {
+      text-align:center;
+      margin:0 auto;
+      margin-top:100px;
+      width:200px;
+      padding:5%;
+      background:white;
+			border-radius: 0%%;
+     -webkit-animation: bounce 0.75s infinite;
+}

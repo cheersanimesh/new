@@ -369,7 +369,7 @@ input[type="date" i] {
 .select2-container .select2-selection--single {
   display: flex;
   align-items: center;
-    background-color: white;
+    background-color: #cceabb;
     border: 0px solid transparent;
     border-radius: 10px !important;
     height: 46px;
@@ -819,7 +819,7 @@ input[type="date" i] {
   background-position: center center;
 }
 .item-slick1 {
-  height: 100%;
+  height: auto;
 }
 
 .arrow-slick1, .arrow-slick2, .arrow-slick3 {
