@@ -3035,11 +3035,10 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .tit9 {
-	font-family: Poppins;
 	font-weight:bold;
 	font-size: 20px;
 	line-height: 1.2;
-	color: #222222;
+	color: red;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
