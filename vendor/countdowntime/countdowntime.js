@@ -16,13 +16,13 @@
       };
     }
 
-    function initializeClock(id, endtime) { 
+    function initializeClock(id, endtime) {
       var daysSpan = $('.days');
       var hoursSpan = $('.hours');
       var minutesSpan = $('.minutes');
       var secondsSpan = $('.seconds');
 
-      function updateClock() { 
+      function updateClock() {
         var t = getTimeRemaining(endtime);
 
         daysSpan.html(t.days);
@@ -39,7 +39,7 @@
       var timeinterval = setInterval(updateClock, 1000);
     }
 
-    var deadline = new Date(Date.parse(new Date()) + 16 * 24 * 60 * 60 * 1000 + 8 * 60 * 60 * 1000); 
+    var deadline = new Date(Date.parse(new Date()) + 16 * 24 * 60 * 60 * 1000 + 8 * 60 * 60 * 1000);
     initializeClock('clockdiv', deadline);
 
 })(jQuery);
